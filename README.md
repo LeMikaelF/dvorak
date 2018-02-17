@@ -1,12 +1,14 @@
+*This is a fork of Thomas Bocek's utility for mapping Dvorak keyboard shortcuts (Ctrl, Shift or Left Alt) to regular Qwerty shortcuts (so you can still press the same buttons on your keyboard). This fork adapts it to the French bépo layout.*
+
 # Dvorak <> Qwerty - Keyboard remapping for Linux when pressing CTRL or ALT
 
-Since I type with the "Dvorak" keyboard layout, the shortcuts such as ctrl-c, ctrl-x, or ctrl-v are 
+Since I type with the "Dvorak" keyboard layout, the shortcuts such as ctrl-c, ctrl-x, or ctrl-v are
 not comfortable anymore for the left hand. And even one of them require two hands to press.
 
-Furthermore, applications such as Intellij have their shortcuts, which I'm used to. So 
+Furthermore, applications such as Intellij have their shortcuts, which I'm used to. So
 for these shortcuts I prefer "Querty". Since there is no way to configure this, it is necessary to intercept the keys and remap the keys from "Dvorak" to "Querty" when pressing CTRL, ALT, WIN or any of those combinations.
-   
-With X.org I was relying on the wonderful project from Kenton Varda. And then came Wayland. 
+
+With X.org I was relying on the wonderful project from Kenton Varda. And then came Wayland.
 
 ## Keyboard remapping with dvorak that works reliably with Wayland - make ctrl-c ctrl-c again
 
